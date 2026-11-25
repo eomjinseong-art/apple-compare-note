@@ -18,6 +18,7 @@ export const NOT_AFFILIATED =
   "애플 비교노트는 Apple Inc.와 관련이 없는 개인 운영 비교 사이트입니다. Apple, iPhone, iPad, Mac, MacBook, AirPods는 Apple Inc.의 상표입니다.";
 
 export const GOOGLE_SITE_VERIFICATION = "LglMaYLzS6dacAPQ5ZgZdPgzdtfLbp_1Rk5vh3WNPlM";
+export const NAVER_SITE_VERIFICATION = "3cb0523b6f41578e7b92e0aa5212934224ffa9a2";
 
 export const SISTER_SITES = [
   { label: "장기렌트 비교노트", url: "https://longrent-guide.vercel.app" },
