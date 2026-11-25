@@ -1,4 +1,3 @@
-import { Noto_Sans_KR } from "next/font/google";
 import type { Metadata, Viewport } from "next";
 import { Disclosure } from "@/components/Disclosure";
 import { Footer } from "@/components/Footer";
@@ -6,7 +5,6 @@ import { Header } from "@/components/Header";
 import { GOOGLE_SITE_VERIFICATION, SITE_NAME, SITE_SUB, SITE_TAGLINE, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
-const sans = Noto_Sans_KR({ subsets: ["latin"], variable: "--font-noto-sans", weight: ["400", "500", "700"] });
 const description = `${SITE_TAGLINE}. ${SITE_SUB}`;
 
 export const metadata: Metadata = {
@@ -26,7 +24,7 @@ export const viewport: Viewport = { width: "device-width", initialScale: 1, them
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ko">
-      <body className={`${sans.variable} min-h-screen bg-white font-sans text-slate-900 antialiased`}>
+      <body className={`min-h-screen bg-white font-sans text-slate-900 antialiased`}>
         <Disclosure />
         <Header />
         <main className="mx-auto max-w-5xl px-4 py-6">{children}</main>
