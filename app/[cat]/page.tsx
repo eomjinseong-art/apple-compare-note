@@ -1,3 +1,4 @@
+import { CoupangAccessories } from "@/components/CoupangAccessories";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BuyButtons } from "@/components/BuyButtons";
@@ -120,6 +121,8 @@ export default async function CategoryPage({ params }: { params: Promise<{ cat: 
           </article>
         ))}
       </section>
+
+      <CoupangAccessories />
 
       <section>
         <h2 className="mb-2 text-xl font-bold">구매 전 체크</h2>

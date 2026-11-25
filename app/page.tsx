@@ -1,3 +1,4 @@
+import { CoupangAccessories } from "@/components/CoupangAccessories";
 import Link from "next/link";
 import { ModelCard } from "@/components/ModelCard";
 import { JsonLd } from "@/components/ui";
@@ -31,6 +32,7 @@ export default function Home() {
           </div>
         </section>
       ))}
+      <CoupangAccessories />
     </div>
   );
 }

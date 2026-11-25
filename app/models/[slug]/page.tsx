@@ -1,3 +1,4 @@
+import { CoupangAccessories } from "@/components/CoupangAccessories";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BuyButtons } from "@/components/BuyButtons";
@@ -99,6 +100,8 @@ export default async function ModelPage({ params }: { params: Promise<{ slug: st
         <h2 className="mb-2 text-lg font-bold">구매 링크</h2>
         <BuyButtons model={m} />
       </section>
+
+      <CoupangAccessories />
 
       {others.length > 0 && (
         <section>

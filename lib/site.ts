@@ -12,6 +12,8 @@ export const PROD_HOSTS = ["apple-compare-note.vercel.app"];
 
 export const AD_DISCLOSURE =
   "이 페이지는 네이버 쇼핑 커넥트 활동의 일환으로, 구매 시 운영자가 수수료를 제공받을 수 있습니다.";
+export const COUPANG_FOOTER_DISCLOSURE =
+  "액세서리 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.";
 export const NOT_AFFILIATED =
   "애플 비교노트는 Apple Inc.와 관련이 없는 개인 운영 비교 사이트입니다. Apple, iPhone, iPad, Mac, MacBook, AirPods는 Apple Inc.의 상표입니다.";
 
